@@ -1,0 +1,425 @@
+#binom {
+    width: 100%;
+    height: 902px;
+    background-color: rgb(18, 18, 23);
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* background-color: black; */
+}
+
+#terov {
+    display: flex;
+    align-items: stretch; /* Выравниваем дочерние элементы по высоте */
+}
+
+#temno {
+    width: 30%;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    height: 902px;
+}
+
+#ss {
+    padding: 15px;
+    height: 30px;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row; /* Выравниваем блоки по вертикали */
+    margin-left: 45%;
+    width: 100px;
+    
+}
+
+.horizontal-block {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 10px;
+    color: white;
+}
+
+#block2 {
+    background-color: rgba(0, 0, 255, 0);
+    height: 30px;
+}
+
+#block1 {
+    background-color: rgb(87, 44, 148);
+    height: 30px;
+}
+
+
+#tt{
+    margin-top: 50px;
+    height: 600px;
+    width: 800px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    transform: translate(-40%, -50%);
+    color: white;
+    font-size: 68px;
+}
+
+
+#yt{
+    color: rgb(139,139,145);
+}
+
+.dotted-line {
+    height: 4px; /* Высота линии */
+    background-image: linear-gradient(to right, #ffffff 50%, transparent 50%); /* Пунктирный линейный градиент */
+    background-size: 50px 100%; /* Размер каждого сегмента пунктира */
+    width: 100%; /* Ширина линии равна ширине родительского элемента (в данном случае, 100%) */
+    margin-bottom: 100px; /* Добавляем отступ снизу для наглядности, вы можете изменить на нужное значение */
+}
+
+
+#rtyu{
+    display: table-column;
+}
+
+#qwert{
+    background-color: black;
+    height: 700px;
+}
+
+#fofl {
+    display: flex; /* Change from table-column to flex */
+    flex-direction: column; /* Set the direction to column if you want it stacked vertically */
+}
+
+#uuu{
+    color: rgb(99,109,120);
+    margin-left: 100px;
+    font-size: 16px;
+}
+
+#ttt{
+    color:white;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 48px;
+}
+
+#fo{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#tbloc{
+    color:white;
+    
+}
+
+#chihra{
+    font-size: 4em;
+    color: rgb(132,145,160);
+}
+
+#strocet{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+#podstroca{
+    color: rgb(60,65,72);
+}
+
+#shar{
+    height: 600px;
+    width: 50%;
+    
+}
+
+#color_shar{
+    height: 600px;
+    background-color: #fff3e4;
+}
+
+
+#lef_stolb{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: column;
+    width: 50%;
+}
+
+#stolb_shar{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: row;
+}
+
+#text_of_shar{
+    margin-left: 70px;
+    margin-top: 15%;
+    font-size: 48px;
+    font-family: "Arial";
+    
+}
+
+#text_of_shar_2{
+    margin-left: 70px;
+    font-size: 18px;
+    color: #5B6876;
+    margin-top: 40px;
+    
+}
+
+#text_of_shar_3 {
+    margin-left: 70px;
+    margin-top: 140px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #5B6876; /* Adjust thickness and color as needed */
+    width: 100px;
+    
+}
+
+#pole_of_text{
+    height: 664px;
+    background-color:black;
+}
+
+
+.stolb_of_text{
+    margin-left: 120px;
+}
+
+#table_of_text{
+    display: flex; /* Change from table-column to flex */
+    flex-direction: row;
+    
+    font-family: "Arial";
+}
+
+
+#one_text1{
+    margin-top: 120px;
+    color:rgb(252,252,252);
+    font-size: 50px;
+}
+
+#one_text2{
+    color:rgb(78,86,95);
+    margin-top: 60px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Arial";
+}
+
+
+#text22{
+    margin-top: 20px;
+    color: rgb(252,252,252);
+    font-size: 20px;
+    font-family: "Arial";
+    
+
+}
+
+#text23{
+    color: rgb(78,86,95);
+    margin-top: 20px;
+    font-family: "Arial";
+    line-height: 25px;
+    
+}
+
+
+#qude{
+    margin-top: 120px;
+}
+
+#bobo {
+    margin-top: 10px;
+    position: relative;
+    height: 10px;
+}
+
+#okr {
+    margin-top: 100px;
+    position: absolute;
+}
+
+#text32{
+    margin-top: 130px;
+    color: rgb(252,252,252);
+    font-size: 20px;
+    font-family: "Arial";
+    line-height: 25px;
+}
+
+#text33{
+    color: rgb(78,86,95);
+    margin-top: 20px;
+    font-family: "Arial";
+    line-height: 20px;
+    line-height: 25px;
+}
+
+#okrd{
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 13px;
+}
+
+#ruch{
+    margin-top: 110px;
+}
+
+#foto{
+    margin-top: 110px;
+}
+
+#line_of_name{
+    height: 140px;
+    background-color:black;
+}
+
+#contain{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.oni{
+    color:white;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    border: 1px solid rgb(87, 87, 87);
+}
+
+#shtrih{
+    position: absolute;
+    margin-left: 57px;
+    margin-top: 17px;
+}
+
+#listic{
+    position: absolute;
+}
+
+
+#cartoon{
+    height: 2201px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#table_block{
+    margin-top: 100px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+#textin1{
+    color: rgb(101,111,122);
+}
+
+#rost{
+    
+    margin-top: 10px;
+    font-size: 48px;
+    color: white;
+    font-family: "Arial";
+}
+
+.carto{
+    height: 830px;
+    width: 636px;
+    background-color: rgb(24,24,35);
+}
+
+#ew{
+    margin-top: 50px;
+}
+
+.rere{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.re{
+    font-size: 16px;
+    color: rgb(132,145,160);
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 24px;
+}
+
+#wer{
+    margin-left: 30px;
+
+}
+
+#wey{
+    margin-left: 30px;
+    margin-top: 50px;
+
+}
+
+#ter{
+    color:white;
+    margin-top: 80px;
+    margin-left: 160px;
+    padding-left: 100px;
+    padding-right: 40px;
+    margin-right: 140px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 1px solid rgb(194, 0, 201);
+}
+
+#airflot{
+    background-color:rgb(241, 162, 255);
+    height: 643px;
+    display: flex;
+    
+}
+
+
+#opisanie_krila{
+    margin-left: 5%;
+    width: 45%;
+}
+
+#text_krila1{
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+#text_krila2{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#text_krila3{
+    margin-top: 20%;
+    font-size: 20px;
+}
+
+#samolet{
+    width: 50%;
+    
+}
