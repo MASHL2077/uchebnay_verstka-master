@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    /* background-color: black; */
+    background-color: black; 
 }
 
 #terov {
@@ -423,3 +423,53 @@ body {
     width: 50%;
     
 }
+
+#registr{
+    background-color: black;
+    width: 100%;
+    
+}
+
+#opis{
+    height: 300px;
+}
+
+
+#one_zagolovok{
+    margin-top: 100px;
+    margin-left: 20%;
+    color: #fff3e4;
+    font-size: 32px;
+}
+
+
+
+#two_zagolovok{
+    margin-top: 50px;
+    margin-left: 20%;
+    color: #fff3e4;
+    font-size: 16px;
+}
+
+#tree_zagolovok{
+    margin-top: 50px;
+    margin-left: 20%;
+    color: #fff3e4;
+    font-size: 16px;
+    border-bottom: 2px solid #5B6876;
+    width: 150px;
+}
+
+#ogr{
+    height: 650px;
+}
+
+#menu{
+    display: block; /* Делаем изображение блочным элементом */
+            margin: 0 auto; /* Автоматические отступы по бокам */
+            max-width: 100%; /* Ограничьте ширину изображения */
+            height: auto; /* Сохраните пропорции */
+            margin-right: 32%;
+    
+}
+
